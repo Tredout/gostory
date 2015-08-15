@@ -1,1 +1,1 @@
-This is my StoryTeller website!
+This is my StoryTeller webapp!
