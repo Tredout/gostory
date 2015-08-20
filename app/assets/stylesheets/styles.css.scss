@@ -1,0 +1,38 @@
+
+@import "bootstrap-sprockets";
+
+
+
+@import "bootstrap";
+
+body {
+    padding-top: 78px;
+    background-color: #edf9fd !important;
+
+}
+
+
+.footer{
+
+	margin-top: 50px;
+	color: #B0B0B0;
+}
+
+
+/*button-jumbotron*/
+.btn-custom {
+	background-color:#b6e7f7;
+    color:#000000;
+}
+
+.btn-custom:hover {
+    background-color:#7bb7db;
+}
+
+/*button-jumbotron*/
+
+.jumbotron {
+	padding-left: 10px;
+    background-color: #90ccdf !important;
+
+}

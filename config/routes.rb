@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'contact' => 'pages#contact'
 
-  get 'social' => 'pages#social'
+  get 'fresh' => 'pages#fresh'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
