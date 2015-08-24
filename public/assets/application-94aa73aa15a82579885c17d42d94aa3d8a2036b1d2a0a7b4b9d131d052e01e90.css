@@ -6569,7 +6569,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #b8eaf4;
 }
 /* line 13, c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -8769,35 +8769,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 8, c:/users/andrej/code/storyteller/app/assets/stylesheets/styles.css.scss */
-body {
-  padding-top: 78px;
-  background-color: #edf9fd !important;
-}
 
-/* line 15, c:/users/andrej/code/storyteller/app/assets/stylesheets/styles.css.scss */
-.footer {
-  margin-top: 50px;
-  color: #B0B0B0;
-}
-
-/*button-jumbotron*/
-/* line 23, c:/users/andrej/code/storyteller/app/assets/stylesheets/styles.css.scss */
-.btn-custom {
-  background-color: #b6e7f7;
-  color: #000000;
-}
-
-/* line 28, c:/users/andrej/code/storyteller/app/assets/stylesheets/styles.css.scss */
-.btn-custom:hover {
-  background-color: #7bb7db;
-}
-
-/*button-jumbotron*/
-/* line 34, c:/users/andrej/code/storyteller/app/assets/stylesheets/styles.css.scss */
-.jumbotron {
-  padding-left: 10px;
-  background-color: #90ccdf !important;
 }
 @charset "UTF-8";
 /*
