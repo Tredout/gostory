@@ -21,6 +21,8 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'simple_form'
+
 gem 'rails_12factor'
 
 gem 'bootstrap-sass', '~> 3.3.5'
