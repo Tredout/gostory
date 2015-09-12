@@ -2,14 +2,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-body {
-    padding-top: 10px;
-    /*background-color: #edf9fd !important; */
-
+@font-face {
+  font-family: "Bariol_Regular";
+  src: url(font-path("Bariol_Regular.otf")) format("opentype");
 }
 
+/*body*/
+body {
+    padding-top: 70px;
+    background-color: #edf9fd !important;
+    font-family: "Bariol_Regular" !important;
+    font-size: 150% !important;
+}
 
+/*header*/
+.navbar{
+    font-size: 115% !important;
+}
+
+.navbar-brand {
+    font-size: 115% !important;
+}
+
+/*footer*/
 .footer{
 
 	margin-top: 50px;
@@ -21,6 +36,7 @@ body {
 .btn-custom {
 	background-color:#7bb7db;
     color:#000000;
+    font-weight:bold !important;
 }
 
 .btn-custom:hover {
@@ -31,6 +47,35 @@ body {
 
 .jumbotron {
 	padding-left: 10px;
-   /* background-color: #b8eaf4 !important;*/
-
+ 	background-color: #b8eaf4 !important;
 }
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+    padding: 1px ;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
