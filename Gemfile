@@ -11,6 +11,9 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+gem 'protected_attributes'
+
+
 gem 'sass-rails', '~> 5.0'
 
 gem 'uglifier', '>= 1.3.0'
@@ -22,6 +25,8 @@ gem 'jquery-rails'
 gem 'devise'
 
 gem 'simple_form'
+
+gem "paperclip", "~> 4.3"
 
 gem 'rails_12factor'
 
