@@ -8,7 +8,6 @@ class Pin < ActiveRecord::Base
   						content_type: { content_type: ["image/jpeg", "image/jpg", "image/gif", "image/png"] },
   						size: { in: 0..5.megabytes }
 
-
 	belongs_to :user
 	
 end
