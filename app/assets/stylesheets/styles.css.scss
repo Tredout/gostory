@@ -19,6 +19,10 @@ h1 {
     font-weight: bold !important;
 }
 
+h2 {
+    font-weight: bold !important;
+}
+
 /*header*/
 .navbar{
     font-size: 115% !important;
@@ -84,3 +88,15 @@ h1 {
     color: #468847;
     text-align: left;
  }
+/*asterisk*/
+ abbr[title="required"] {
+  display: none;
+}
+/*asterisk*/
+
+.field_center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
