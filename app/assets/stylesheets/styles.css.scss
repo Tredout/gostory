@@ -24,8 +24,20 @@ h2 {
 }
 
 /*header*/
-.navbar{
+.navbar {
     font-size: 115% !important;
+}
+
+.share {
+    color: #656679 !important;
+}
+
+li.share a {
+  color: #ddd6d6 !important;
+}
+
+li.share a:hover {
+  color: #ffffff !important;
 }
 
 .navbar-brand {
@@ -34,7 +46,7 @@ h2 {
 }
 
 /*footer*/
-.footer{
+.footer {
 
 	margin-top: 50px;
 	color: #B0B0B0;
@@ -100,3 +112,34 @@ h2 {
     padding: 10px;
 }
 
+/* Required for Masonry */
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.4em;
+    float: left;
+    --webkit-border-radius: 5px;
+    --moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    width: 214px;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    --webkit-border-radius: 5px;
+    --moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.box:hover {
+    background-color: #cbe7f5;
+}
+
+/* pin */
+.description {
+    margin: 10px 0 5px;
+
+}
